@@ -1,0 +1,36 @@
+{
+    "en": {
+        "ww-heading-subtext": "are getting married! (again)",
+        "ww-overview": "Overview",
+        "ww-when": "When",
+        "ww-cerimony": "The Cerimony",
+        "ww-date": "April 30th, 2023 at 13:00h",
+        "ww-location": "Location",
+        "ww-celebration": "The Celebration",
+        "ww-getting-there": "Getting there",
+        "ww-getting-there-details-1": "The best way to arrive to Vilvestre and Ciudad Rodrigo is by fying to Madrid Airport.",
+        "ww-getting-there-details-2": "To go from Madrid to Salamanca we recommend",
+        "ww-getting-there-details-3": "From Salamanca to Vilvestre and/or Ciudad Rodrigo: Car and bus services",
+        "ww-lodging": "Lodging",
+        "ww-lodging-details": "More details about hotels and lodging in Salamanca, Ciudad Rodrigo and Vilvestre coming soon!",
+        "ww-o": "or",
+        "ww-train": "train"
+    },
+    "es": {
+        "ww-heading-subtext": "se casan! (otra vez)",
+        "ww-overview": "Datos generales",
+        "ww-when": "Cuándo",
+        "ww-cerimony": "La Ceremonia",
+        "ww-date": "30 de Abril de 2023 a las 13:00h",
+        "ww-location": "Dónde",
+        "ww-celebration": "La Celebración",
+        "ww-getting-there": "Cómo llegar",
+        "ww-getting-there-details-1": "La mejor manera de llegar a España es volar al aeropuerto de Madrid",
+        "ww-getting-there-details-2": "Para ir de Madrid a Salamanca recomendamos",
+        "ww-getting-there-details-3": "De Salamanca a Vilvestre y/o Ciudad Rodrigo: coche o autobus",
+        "ww-lodging": "Alojamiento",
+        "ww-lodging-details": "Pronto daremos más detalles sobre alojamiento en Salamanca, Ciudad Rodrigo y Vilvestre!",
+        "ww-o": "o",
+        "ww-train": "tren"
+    }
+}
