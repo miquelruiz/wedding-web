@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
     <title>Judit & Miquel's Wedding</title>
@@ -12,24 +12,23 @@
     <header class="header">
       <h1 class="heading">
         Judit & Miguel
-        <span class="heading-subtext"> are getting married! (again) </span>
+        <span class="heading-subtext" data-i18n="ww-heading-subtext"></span>
       </h1>
     </header>
-    <!-- <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a> -->
     <section class="section">
-      <h2 class="sub-heading">Overview</h2>
+      <h2 id="testing" class="sub-heading" data-i18n="ww-overview"></h2>
       <div class="details">
         <i class="fas fa-calendar-check"></i>
-        <h3 class="details-heading">When</h3>
-        <p>April 30th, 2022 at 13:00</p>
-        <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a>
+        <h3 class="details-heading" data-i18n="ww-when"></h3>
+        <p data-i18n="ww-date"></p>
+        <!-- <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a> -->
       </div>
     </section>
     <section class="section">
-      <h2 class="sub-heading">The Cerimony</h2>
+      <h2 class="sub-heading" data-i18n="ww-cerimony"></h2>
       <div class="details">
         <i class="fas fa-map-marked-alt"></i>
-        <h3 class="details-heading">Location</h3>
+        <h3 class="details-heading" data-i18n="ww-location"></h3>
         <p><a href="https://es.wikipedia.org/wiki/Iglesia_de_Nuestra_Se%C3%B1ora_de_la_Asunci%C3%B3n_(Vilvestre)">Iglesia de Nuestra Señora de la Asunción</a>, Vilvestre, Salamanca</p>
         <img class="resort-image" src="./img/IglesiaVilvestre.jpg" alt="Resort" />
         <div class="google-maps">
@@ -38,10 +37,10 @@
       </div>
     </section>
     <section class="section">
-      <h2 class="sub-heading">The Celebration</h2>
+      <h2 class="sub-heading" data-i18n="ww-celebration"></h2>
       <div class="details">
         <i class="fas fa-map-marked-alt"></i>
-        <h3 class="details-heading">Location</h3>
+        <h3 class="details-heading" data-i18n="ww-location"></h3>
         <p><a href="https://es.wikipedia.org/wiki/Palacio_de_Montarco">Palacio de Montarco</a>, Ciudad Rodrigo, Salamanca</p>
         <img class="resort-image" src="./img/palacio-interior.jpg" alt="Resort" />
         <div class="google-maps">
@@ -50,16 +49,16 @@
       </div>
       <div class="details">
         <i class="fas fa-suitcase"></i>
-        <h3 class="details-heading">Lodging (Coming soon!)</h3>
-        <p>More details about hotels and lodging in Salamanca, Ciudad Rodrigo and Vilvestre coming soon!</p>
+        <h3 class="details-heading" data-i18n="ww-lodging"></h3>
+        <p data-i18n="ww-lodging-details"></p>
       </div>
       <div class="details">
         <i class="fas fa-plane-departure"></i>
-        <h3 class="details-heading">Getting there</h3>
-        <p>The best way to arrive to Vilvestre and Ciudad Rodrigo is by flying to Madrid Airport.</p>
-        <p>From Madrid to Salamanca: There are multiple ways available. We recommend:
-          <a href="https://www.renfe.com/es/en">train</a> or <a href="https://www.avanzabus.com/">bus</a></p>
-        <p>From Salamanca to Vilvestre and/or Ciudad Rodrigo: Car and bus services</p>
+        <h3 class="details-heading" data-i18n="ww-getting-there"></h3>
+        <p data-i18n="ww-getting-there-details-1"></p>
+        <p data-i18n="ww-getting-there-details-2"></p>
+        <a data-i18n="ww-train" href="https://www.renfe.com/es/en"></a> <span data-i18n="ww-o"></span> <a href="https://www.avanzabus.com/">bus</a>
+        <p data-i18n="ww-getting-there-details-3"></p>
       </div>
       <!--
       <div class="details">
@@ -74,15 +73,24 @@
       </div>
     -->
     </section>
-    <script src="./js/smooth-scroll.polyfills.min.js"></script>
-    <script defer>
-      var scroll = new SmoothScroll('a[href*="#"]');
-      var rsvpButton = document.getElementById('rsvpButton')
-      rsvpButton.addEventListener('click',hideButton,false);
-
-      function hideButton() {
-        rsvpButton.style.display = 'none';
-      }
+    <!-- <script src="./js/smooth-scroll.polyfills.min.js"></script> -->
+    <script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+    <script src="./js/jquery.i18n.js"></script>
+    <script src="./js/jquery.i18n.messagestore.js"></script>
+    <script src="./js/jquery.i18n.fallbacks.js"></script>
+    <script src="./js/jquery.i18n.parser.js"></script>
+    <script src="./js/jquery.i18n.emitter.js"></script>
+    <script src="./js/jquery.i18n.language.js"></script>
+    <script>
+      $(document).ready(function($) {
+        'use strict';
+        $.i18n().load('/i18n/wedding-web.json').done(function() {
+          $('body').i18n()
+        });
+      })
     </script>
   </body>
 </html>
