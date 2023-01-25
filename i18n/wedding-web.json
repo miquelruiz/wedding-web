@@ -1,9 +1,8 @@
 {
     "en": {
         "ww-heading-subtext": "are getting married! (again)",
-        "ww-overview": "Overview",
-        "ww-when": "When",
-        "ww-cerimony": "The Cerimony",
+        "ww-when": "April 30th, 2023",
+        "ww-ceremony": "The Ceremony",
         "ww-date": "April 30th, 2023 at 13:00h",
         "ww-location": "Location",
         "ww-celebration": "The Celebration",
@@ -13,14 +12,14 @@
         "ww-getting-there-details-3": "From Salamanca to Vilvestre and/or Ciudad Rodrigo: Car and bus services",
         "ww-lodging": "Lodging",
         "ww-lodging-details": "More details about hotels and lodging in Salamanca, Ciudad Rodrigo and Vilvestre coming soon!",
+        "ww-lodging-details-2": "<p><strong>OPTION 1: <a href=\"https://hostalesenciudadrodrigo.com\">Hostal Puerta del Sol</a></p>",
         "ww-o": "or",
         "ww-train": "train"
     },
     "es": {
         "ww-heading-subtext": "se casan! (otra vez)",
-        "ww-overview": "Datos generales",
-        "ww-when": "Cuándo",
-        "ww-cerimony": "La Ceremonia",
+        "ww-when": "30 de Abril de 2023 ",
+        "ww-ceremony": "La Ceremonia",
         "ww-date": "30 de Abril de 2023 a las 13:00h",
         "ww-location": "Dónde",
         "ww-celebration": "La Celebración",
@@ -29,7 +28,8 @@
         "ww-getting-there-details-2": "Para ir de Madrid a Salamanca recomendamos",
         "ww-getting-there-details-3": "De Salamanca a Vilvestre y/o Ciudad Rodrigo: coche o autobus",
         "ww-lodging": "Alojamiento",
-        "ww-lodging-details": "Pronto daremos más detalles sobre alojamiento en Salamanca, Ciudad Rodrigo y Vilvestre!",
+        "ww-lodging-details": "Tenemos un total de 30 habitaciones distribuidas en Ciudad Rodrigo. Las habitaciones están bloqueadas para que las podáis reservar la noche del 30 de abril, hasta un mes y medio antes de la ceremonia (15 de marzo). \n Al reservar, decid que venís para la boda de Miguel y Judit!",
+        "ww-lodging-details-2": "<p><strong>OPCION 1: <a href=\"https://hostalesenciudadrodrigo.com\">Hostal Puerta del Sol</a></p> ",
         "ww-o": "o",
         "ww-train": "tren"
     }
