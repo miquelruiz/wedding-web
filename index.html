@@ -10,6 +10,10 @@
   </head>
   <body>
     <header class="header">
+      <select name="select" id="lang-select">
+        <option value="es">Castellano</option>
+        <option value="en">English</option>
+      </select>
       <h1 class="heading">
         Judit & Miguel
         <span class="heading-subtext" data-i18n="ww-heading-subtext"></span>
@@ -21,7 +25,6 @@
         <i class="fas fa-calendar-check"></i>
         <h3 class="details-heading" data-i18n="ww-when"></h3>
         <p data-i18n="ww-date"></p>
-        <!-- <a title="Add to Calendar" rel="noopener" href="#" target="_blank" rel="nofollow">Add to Calendar</a> -->
       </div>
     </section>
     <section class="section">
@@ -60,20 +63,7 @@
         <a data-i18n="ww-train" href="https://www.renfe.com/es/en"></a> <span data-i18n="ww-o"></span> <a href="https://www.avanzabus.com/">bus</a>
         <p data-i18n="ww-getting-there-details-3"></p>
       </div>
-      <!--
-      <div class="details">
-        <i class="fas fa-asterisk"></i>
-        <h3 class="details-heading">Other Notes</h3>
-        <p>Dale a tu cuerpo alegria Macarena que tu cuerpo es pa darle alegria cosa buena. AAAAAY MACARENA.</p>
-      </div>
-      <div class="details">
-        <i class="fas fa-reply"></i>
-        <h3 class="details-heading" id="rsvp">RSVP</h3>
-        <p>[Embed your RSVP form here]</p>
-      </div>
-    -->
     </section>
-    <!-- <script src="./js/smooth-scroll.polyfills.min.js"></script> -->
     <script
 		  src="https://code.jquery.com/jquery-3.2.1.min.js"
 		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -85,10 +75,17 @@
     <script src="./js/jquery.i18n.emitter.js"></script>
     <script src="./js/jquery.i18n.language.js"></script>
     <script>
+      var lang = navigator.language.split('-')[0];
       $(document).ready(function($) {
         'use strict';
         $.i18n().load('/i18n/wedding-web.json').done(function() {
-          $('body').i18n()
+          $('body').i18n();
+        });
+
+        $('#lang-select option[value="' + lang + '"]').prop('selected', true)
+        $('#lang-select').on('change', function(e) {
+          $.i18n().locale = $(this).val();
+          $('body').i18n();
         });
       })
     </script>

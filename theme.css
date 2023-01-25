@@ -18,6 +18,20 @@ html, body{
     margin: 0;
     padding-top: 60vh;
 }
+
+#lang-select {
+    background: rgba(20,20,20,.5);
+    border-radius: 10px;
+    top: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+}
+
 .heading {
     color: #ffffff;
     display: block;
