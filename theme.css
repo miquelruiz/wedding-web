@@ -21,13 +21,13 @@ html, body{
 
 #lang-select {
     background: rgba(100, 100, 100, 0.5);
-    border-radius: 20px;
+    border-radius: 10px;
     top: 1em;
     font-family: 'Caveat', cursive;
     font-size: 2em;
     color: white;
     font-weight: bold;
-    padding: 30px;
+    padding: 5px;
     position: fixed;
     right: 1em;
     text-decoration: none;
