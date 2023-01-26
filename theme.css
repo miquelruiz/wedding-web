@@ -76,15 +76,11 @@ html, body{
 .section{
     margin: 0 auto;
     max-width: 600px;
-    padding: 1em 2.4em;
 }
 .sub-heading{
     font-family: 'Caveat', cursive;
     font-size: 3em;
     margin-top: 2em;
-}
-.details{
-    margin: 0 auto 8em;
 }
 .lodging-details{
     text-align: left;
