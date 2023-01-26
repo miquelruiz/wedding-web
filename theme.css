@@ -20,12 +20,14 @@ html, body{
 }
 
 #lang-select {
-    background: rgba(20,20,20,.5);
-    border-radius: 10px;
+    background: rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
     top: 1em;
+    font-family: 'Caveat', cursive;
+    font-size: 2em;
     color: white;
     font-weight: bold;
-    padding: 5px;
+    padding: 30px;
     position: fixed;
     right: 1em;
     text-decoration: none;
