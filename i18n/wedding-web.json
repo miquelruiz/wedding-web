@@ -24,9 +24,13 @@
         "ww-living-room": "Double with living room",
         "ww-sloping-room": "Double room with sloping ceiling",
         "ww-price-day": "Price per day",
+        "ww-breakfast": "Breakfast",
+        "ww-included": "included",
         "ww-phone": "Phone",
         "ww-o": "or",
-        "ww-train": "train"
+        "ww-train": "train",
+        "ww-discount": "with 8% discount if you say that you come for Miguel and Judit’s wedding",
+        "ww-bookings-date": "(Bookings by pone after Feb 10)"
     },
     "es": {
         "ww-heading-subtext": "se casan! (otra vez)",
@@ -53,8 +57,12 @@
         "ww-living-room": "Doble con Salón",
         "ww-sloping-room": "Doble Económica Abuhardillada",
         "ww-price-day": "Precio por día",
+        "ww-breakfast": "Desayuno",
+        "ww-included": "incluído",
         "ww-phone": "Teléfono",
         "ww-o": "o",
-        "ww-train": "tren"
+        "ww-train": "tren",
+        "ww-discount": "con 8% de descuento en las tarifas online al decir que venís a nuestra boda",
+        "ww-bookings-date": " (Reservas por teléfono a partir del 10 de febrero)"
     }
 }
