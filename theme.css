@@ -86,6 +86,13 @@ html, body{
 .details{
     margin: 0 auto 8em;
 }
+.lodging-details{
+    text-align: left;
+}
+.lodging-option{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
 .details-heading{
     font-weight: bold;
     text-transform: uppercase;
